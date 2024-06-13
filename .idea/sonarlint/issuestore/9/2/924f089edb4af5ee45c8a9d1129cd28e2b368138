@@ -1,0 +1,40 @@
+
+Ï
+java:S1192:"‹Define a constant instead of duplicating this literal "--------------------------------------------------------------------------" 3 times.(µ¹û”8–àá2J$c595507a-e495-4f37-b8fe-ab60950687cc
+i	java:S131""Add a default case to this switch.(†²·¹úÿÿÿÿ8àá2J$e8e2dc18-4108-4705-a864-3daa603416f7
+„
+java:S1854)"<Remove this useless assignment to local variable "produto2".(úˆıˆøÿÿÿÿ8Ÿàá2J$4a9df98b-93b6-4fae-8222-6e5242edea9d
+~
+java:S1854(";Remove this useless assignment to local variable "produto".(¡—Æ³8Ÿàá2J$f9e47da2-820f-43c8-b691-328180edbbd3
+r
+java:S1172'"/Remove this unused method parameter "produtos".(˜¼Ì°8Ÿàá2J$7613c577-b8fa-4fdc-b6f3-92deb9bf82f0
+o
+java:S1481(",Remove this unused "produto" local variable.(¡—Æ³8û…â2J$9866dc24-4fe6-4385-bb1f-9df510fe1865
+u
+java:S1481)"-Remove this unused "produto2" local variable.(úˆıˆøÿÿÿÿ8Ÿàá2J$cc2d4dcc-466b-428c-9d44-2a1773820359
+m	java:S106."+Replace this use of System.out by a logger.(ÆÀûı8Ÿàá2J$d1423faf-ff97-44b1-9642-ab683990b07d
+u
+java:S6126/"2Replace this String concatenation with Text block.(öî™Ò8Ÿàá2J$26fd7f30-ac1a-4e6c-ad8e-7c9f1aa7e591
+m	java:S1065"+Replace this use of System.out by a logger.(ÛÕÖ8 àá2J$c7b092ee-7dfd-4dd1-b752-c5356aff6e1c
+m	java:S1069"+Replace this use of System.out by a logger.(ÆÀûı8 àá2J$a74f4010-fdd5-4b72-87f2-411fbcefbbec
+”
+java:S3457;"Q%n should be used in place of \n to produce the platform-specific line separator.(µ˜é´8 àá2J$e563410a-7a03-44f5-a2e6-4c53923d5f50
+m	java:S106;"+Replace this use of System.out by a logger.(µ˜é´8 àá2J$b2005cf1-e316-4073-9d4b-2201fd4d9860
+m	java:S106<"+Replace this use of System.out by a logger.(ÆÀûı8¡àá2J$dbbb683b-1c7a-4aea-a665-cd3f6f72fc21
+n
+java:S3457@"Q%n should be used in place of \n to produce the platform-specific line separator.(¨«•Í8´—û2
+m	java:S106@"+Replace this use of System.out by a logger.(¨«•Í8¡àá2J$b18e348e-c4c9-425a-9e76-35381f45835d
+m	java:S106G"+Replace this use of System.out by a logger.(ÆÀûı8¡àá2J$215878ea-11f5-42fb-b432-602275a7b9e8
+~
+java:S1854P"6Remove this useless assignment to local variable "id".(şÅù­ÿÿÿÿÿ8¢àá2J$a1be645c-7296-47a5-8902-428b4a03679f
+r	java:S106N"+Replace this use of System.out by a logger.(¹¦ÆŸıÿÿÿÿ8¢àá2J$cfc43458-a56a-4b8a-baa3-5bfffbc171b3
+m	java:S106S"+Replace this use of System.out by a logger.(°öæ£8¢àá2J$96d7d214-1365-436b-bfd8-1c1ecc01ca3d
+r	java:S106W"+Replace this use of System.out by a logger.(Á¹·şÿÿÿÿ8£àá2J$187659c8-dfc5-46e7-9fad-16d9add73cdd
+m	java:S106]"+Replace this use of System.out by a logger.(å¶‚­8£àá2J$b7d51deb-f926-457f-b0e9-4c3e99d89c97
+m	java:S106a"+Replace this use of System.out by a logger.(µ­…Œ8¤àá2J$44277d9f-d5ce-4ed1-8cbb-e31b9f631f58
+r	java:S106g"+Replace this use of System.out by a logger.(¹¦ÆŸıÿÿÿÿ8¤àá2J$3351d981-27fe-4b29-b879-292a00289da2
+m	java:S106k"+Replace this use of System.out by a logger.(°öæ£8¤àá2J$06e6f987-10bf-492d-b693-dbc077320409
+r	java:S106o"+Replace this use of System.out by a logger.(Á¹·şÿÿÿÿ8¤àá2J$3b49edc1-c865-41e5-9160-96d73c240ff8
+m	java:S106s"+Replace this use of System.out by a logger.(¥·™Í8¤àá2J$cc8bb94f-ec38-4917-88d1-c8c91f9e78e9
+m	java:S106z"+Replace this use of System.out by a logger.(µ­…Œ8¥àá2J$c7562c7a-1fe7-4130-a50e-d9b1c37056ba
+n	java:S106€"+Replace this use of System.out by a logger.(Êÿ½Í8¥àá2J$8ed6ef3c-ddee-4e8f-9a06-5509941a812e
