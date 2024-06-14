@@ -1,12 +1,16 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int id = 1;
         List<Produto> produtos = new ArrayList<>();
-        id = carregarProdutos(id, produtos);
+        //id = carregarProdutos(id, produtos);
         Scanner scanner = new Scanner(System.in);
         int opcao;
 
@@ -54,6 +58,8 @@ public class Main {
     }
 
     private static void listarProdutos(List<Produto> produtos) {
+        File arquivo = new File("d:\\produto.txt");
+
         System.out.println(
                 "--------------------------------------------------------------------------");
         System.out.printf("%5s %20s %20s %20s\n", "ID", "NOME", "VALOR", "QUANTIDADE");
@@ -72,7 +78,7 @@ public class Main {
                 "--------------------------------------------------------------------------");
     }
 
-    private static void cadastrarProduto(Scanner scanner, int id, List<Produto> produtos) {
+    private static void cadastrarProduto(Scanner scanner, int id, List<Produto> produtos) throws IOException {
         Produto produtoCadastro= new Produto();
 
         System.out.println("DIGITE O NOME DO PRODUTO");
@@ -89,8 +95,30 @@ public class Main {
         produtoCadastro.setQuantidade(quantidade);
 
         produtos.add(produtoCadastro);
+        gravarProduto(produtoCadastro).close();
 
         System.out.println("PRODUTO SALVO!");
+    }
+
+    private static FileWriter gravarProduto(Produto produtoCadastro) throws IOException {
+        FileWriter arq = new FileWriter("d:\\produto.txt");
+        PrintWriter gravarArq = new PrintWriter(arq);
+
+        gravarArq.println(
+                "--------------------------------------------------------------------------");
+
+        gravarArq.printf("%5s %20s %20s %20s\n", "ID", "NOME", "VALOR", "QUANTIDADE");
+
+        gravarArq.printf("%5d %20s %20d %20d\n",
+                produtoCadastro.getId(),
+                produtoCadastro.getNome(),
+                produtoCadastro.getValor(),
+                produtoCadastro.getQuantidade()
+        );
+
+        gravarArq.println(
+                "--------------------------------------------------------------------------");
+        return arq;
     }
 
     private static void editarProduto(Scanner scanner, List<Produto> produtos) {
